@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "anpcpmcintranet-client-side-solution",
+    "id": "cd6e36fb-f95c-49d2-9336-4bad859594bd",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ANPCPMCINTRANET description"
+      },
+      "longDescription": {
+        "default": "ANPCPMCINTRANET description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "anpcpmcintranet Feature",
+        "description": "The feature that activates elements of the anpcpmcintranet solution.",
+        "id": "cf04184b-45a3-4245-b096-9cad777f941a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/anpcpmcintranet.sppkg"
+  }
+}

@@ -1,0 +1,26 @@
+.successWrapper {
+  height: calc(100vh - 270px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.successCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .successHead {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+  }
+}

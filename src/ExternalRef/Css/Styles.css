@@ -1,0 +1,80 @@
+#workbenchPageContent {
+  max-width: 100%;
+  margin: 0;
+}
+
+.content_3f3fd3c2,
+.CanvasZone {
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+
+#spCommandBar {
+  display: none !important;
+}
+
+[data-automation-id="CanvasZone-SectionContainer"] {
+  padding: 0px !important;
+}
+
+[data-automation-id="contentScrollRegion"] {
+  overflow-y: hidden !important;
+}
+
+[data-automationid="SiteHeader"] {
+  display: none !important;
+}
+
+[data-automationid="SimpleFooter"] {
+  display: none !important;
+}
+
+.spAppAndPropertyPanelContainer {
+  padding-bottom: 0px !important;
+}
+
+/* Full width */
+.spAppAndPropertyPanelContainer .sp-appBar {
+  display: none !important;
+}
+
+.dropDownFullField .ant-select {
+  width: 100% !important;
+}
+
+.phoneNumberInput .ant-select-selector {
+  border-right: 0px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: #ff3d00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-checkbox {
+  border: 1px solid #d9d9d9;
+}
+.ant-input {
+  padding-left: 8px !important;
+}
+
+#CommentsWrapper {
+  display: none !important;
+}

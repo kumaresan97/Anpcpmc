@@ -1,0 +1,155 @@
+.conBox {
+  .con {
+    width: 500px;
+    padding: 20px;
+
+    .formBox {
+      border: 1px solid #ccc;
+      border-radius: 7px;
+      background-color: #ffff;
+      // background-color: #ffffffb3;
+      // box-shadow: 0px 0px 8px 4px #ccc;
+
+      .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .formHeader {
+          width: 100%;
+          font-size: 20px;
+          font-weight: bold;
+          border-bottom: 1px solid #d9d9d9;
+          padding: 0 20px;
+          text-align: center;
+
+          .formHeading {
+            color: #333;
+            font-size: 17px;
+            font-weight: 600;
+            margin: 15px 0;
+          }
+        }
+
+        .formBody {
+          width: 100%;
+          padding: 10px 20px 0px 20px;
+
+          .row {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+
+            .rowLabel {
+              font-weight: 600;
+              margin: 5px 0;
+              width: 100%;
+
+              span {
+                color: red;
+              }
+            }
+
+            .checkboxGroup {
+              display: flex;
+              gap: 10px;
+
+              span {
+                color: #3f3f3f;
+                font-size: 14px;
+                font-weight: 500;
+              }
+            }
+
+            .nameInputs {
+              display: flex;
+              gap: 10px;
+
+              .inputWithLabel {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: center;
+
+                label {
+                  font-weight: 500;
+                  color: #3f3f3f;
+                  margin-top: 5px;
+                  width: 100%;
+                }
+              }
+            }
+
+            .phoneNumberInput {
+              display: flex;
+              align-items: center;
+              width: 100%;
+
+              .countrySelect {
+                width: 95px;
+              }
+
+              .phoneInput {
+                flex: 1;
+              }
+
+              input {
+                border-left: 0px;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                height: 32px;
+              }
+            }
+          }
+        }
+
+        .formFooter {
+          width: 100%;
+          text-align: end;
+          margin: 0 20px 10px 0;
+
+          button {
+            background-color: #db5700;
+            border-radius: 6px;
+            width: 100px;
+            border-color: #db5700;
+            color: #fff;
+          }
+
+          button:focus {
+            color: #fff;
+          }
+
+          button:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .conBox {
+    .con {
+      .formBox {
+        .form {
+          .formBody {
+            .row {
+              .phoneNumberInput {
+                flex-direction: column;
+                align-items: stretch;
+
+                .countrySelect,
+                .phoneInput {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
