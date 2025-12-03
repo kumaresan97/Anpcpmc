@@ -1,5 +1,8 @@
 .successWrapper {
-  height: calc(100vh - 270px);
+  position: absolute;
+  z-index: 9999;
+  height: 100vh;
+  background: white;
   width: 100%;
   display: flex;
   justify-content: center;
